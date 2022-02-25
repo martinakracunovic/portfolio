@@ -1,0 +1,816 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sirina {
+  width: 80%;
+  margin: 0px auto;
+}
+
+body {
+  background-image: url("../slike/slikahtml.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+body header {
+  z-index: 100;
+  -webkit-box-shadow: 2px 2px 25px black;
+          box-shadow: 2px 2px 25px black;
+  top: 0px;
+  width: 100%;
+  padding-bottom: 15px;
+  background-color: #f7ffe6;
+}
+
+body header .sirina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .sirina section {
+  padding-top: 20px;
+  color: #000;
+  font-size: 20px;
+}
+
+body header .sirina ul {
+  padding-top: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .sirina ul li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+body header .sirina ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+body header .sirina ul li a:hover {
+  color: #ff4750;
+}
+
+body #reg1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+body #reg1 .sirina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #reg1 .sirina .strana {
+  width: 50%;
+  height: 100%;
+}
+
+body #reg1 .sirina .druga {
+  position: relative;
+  -webkit-animation-name: animacija2;
+          animation-name: animacija2;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  background-color: aqua;
+  width: 100%;
+  height: 100px;
+}
+
+@-webkit-keyframes animacija2 {
+  0% {
+    right: -700px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes animacija2 {
+  0% {
+    right: -700px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+body #reg1 .sirina .prva {
+  position: relative;
+  -webkit-animation-name: animacija;
+          animation-name: animacija;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  width: 100%;
+}
+
+@-webkit-keyframes animacija {
+  0% {
+    top: -450px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes animacija {
+  0% {
+    top: -450px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+body #reg1 .sirina .prva h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+  font: Arial, Helvetica, sans-serif;
+}
+
+body #reg1 .sirina .prva p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+body #reg1 .sirina .prva button {
+  margin-top: 55px;
+  padding: 30px 80px;
+  background-color: #ff4750;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+body #reg1 .sirina .prva button:hover {
+  background-color: white;
+  color: #ff4750;
+}
+
+body #reg2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 0px;
+  -webkit-box-shadow: 2px 2px 15px #666;
+          box-shadow: 2px 2px 15px #666;
+  background-color: rgba(189, 166, 102, 0.705);
+}
+
+body #reg2 .sirina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #reg2 .sirina h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+body #reg2 .sirina p {
+  text-align: center;
+}
+
+body #reg2 .sirina p:nth-of-type(1) {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+body #reg2 .sirina p:nth-of-type(2) {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+body #reg3 {
+  -webkit-box-shadow: 2px 2px 15px #666;
+          box-shadow: 2px 2px 15px #666;
+  background-color: rgba(189, 166, 102, 0.705);
+  margin: 100px 0px;
+  padding: 50px 0px;
+  padding-bottom: 100px;
+}
+
+body #reg3 .hrr {
+  font-size: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 240px;
+  font-weight: 600;
+  margin: 10px auto 50px auto;
+  text-align: center;
+}
+
+body #reg3 .hrr .crte {
+  margin-top: 5px;
+  width: 40px;
+  height: 3px;
+  background-color: #000;
+}
+
+body #reg3 h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+body #reg3 .sirina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #reg3 .sirina .box {
+  -webkit-box-shadow: 2px 2px 15px #221f1f;
+          box-shadow: 2px 2px 15px #221f1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  width: 30%;
+  background-color: #fcffcb;
+  border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+body #reg3 .sirina .box i {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+body #reg3 .sirina .box:hover {
+  background-color: white;
+  color: #ff4750;
+}
+
+body #reg3 .sirina .box h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px auto;
+  margin-bottom: 20px;
+}
+
+body #reg3 .sirina .box p {
+  text-align: center;
+  font-size: 25px;
+}
+
+body #reg4 {
+  margin-bottom: 100px;
+}
+
+body #reg4 h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+body #reg4 .sirina .unutra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+body #reg4 .sirina .unutra .strana1.leva {
+  width: 50%;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills {
+  width: 90%;
+  margin: 0px auto;
+  height: 100%;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row {
+  height: 60px;
+  width: 100%;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .gore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .gore p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .dole .progress {
+  width: 100%;
+  height: 15px;
+  background-color: gray;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .dole .progress .h {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .dole .progress .c {
+  height: 100%;
+  width: 95%;
+  background-color: red;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .dole .progress .j {
+  height: 100%;
+  width: 90%;
+  background-color: red;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .dole .progress .s {
+  height: 100%;
+  width: 85%;
+  background-color: red;
+}
+
+body #reg4 .sirina .unutra .strana1.leva #skills .row .dole .progress .p {
+  height: 100%;
+  width: 80%;
+  background-color: red;
+}
+
+body #reg4 .sirina .unutra .strana1.desna {
+  width: 50%;
+}
+
+body #reg4 .sirina .unutra .strana1.desna p {
+  width: 80%;
+  margin: 0px auto;
+  font-size: 20px;
+}
+
+body #reg4 .sirina .unutra .strana1.desna p:nth-of-type(2) {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 40px;
+  font: Arial, Helvetica, sans-serif;
+}
+
+#reg5 {
+  -webkit-box-shadow: 2px 2px 15px #221f1f;
+          box-shadow: 2px 2px 15px #221f1f;
+  background-color: rgba(189, 166, 102, 0.705);
+  padding-bottom: 100px;
+}
+
+#reg5 .hrr {
+  font-size: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 180px;
+  font-weight: 600;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#reg5 .hrr .crte {
+  margin-top: 5px;
+  width: 40px;
+  height: 3px;
+  background-color: #000;
+}
+
+#reg5 h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#reg5 .sirina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#reg5 .sirina .rad {
+  -webkit-box-shadow: 2px 2px 15px #221f1f;
+          box-shadow: 2px 2px 15px #221f1f;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  width: 30%;
+  background-color: #fcffcb;
+  margin: 60px auto;
+}
+
+#reg5 .sirina .rad:hover figure {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 5px solid #ff4750;
+  -webkit-box-shadow: 2px 2px 15px #221f1f;
+          box-shadow: 2px 2px 15px #221f1f;
+}
+
+#reg5 .sirina .rad:hover h2 {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#reg5 .sirina .rad:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#reg5 .sirina .rad figure {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+#reg5 .sirina .rad figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#reg5 .sirina .rad h2 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-top: 40px;
+  font-size: 40px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#reg5 .sirina .rad p {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #000;
+  font-size: 25px;
+}
+
+#reg5 .sirina .rad p:nth-of-type(2) {
+  color: #000;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#reg6 {
+  margin-top: 100px;
+}
+
+#reg6 h1 {
+  font-weight: 500;
+  font-size: 60px;
+  text-align: center;
+}
+
+#reg6 .hrr {
+  font-size: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 220px;
+  font-weight: 600;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#reg6 .hrr .crte {
+  margin-top: 5px;
+  width: 40px;
+  height: 3px;
+  background-color: #000;
+}
+
+#reg6 .sirina .strane3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+#reg6 .sirina .strane3 .left {
+  width: 50%;
+  height: 100%;
+}
+
+#reg6 .sirina .strane3 .left h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+#reg6 .sirina .strane3 .left p {
+  font-size: 19px;
+}
+
+#reg6 .sirina .strane3 .left #social {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 50px;
+}
+
+#reg6 .sirina .strane3 .left #social .mreze {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#reg6 .sirina .strane3 .left #social .mreze .ikona {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+#reg6 .sirina .strane3 .left #social .mreze .ikona i {
+  font-size: 40px;
+}
+
+#reg6 .sirina .strane3 .left #social .mreze .inf {
+  margin-top: 5px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#reg6 .sirina .strane3 .right {
+  width: 45%;
+  height: 100%;
+}
+
+#reg6 .sirina .strane3 .right h2 {
+  margin-bottom: 40px;
+}
+
+#reg6 .sirina .strane3 .right .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+#reg6 .sirina .strane3 .right .row:nth-of-type(3) {
+  height: 230px;
+}
+
+#reg6 .sirina .strane3 .right .row #txt {
+  width: 48%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+#reg6 .sirina .strane3 .right .row #email {
+  width: 48%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+#reg6 .sirina .strane3 .right .row #txt2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+#reg6 .sirina .strane3 .right .row #area {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 30px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+#reg6 .sirina .strane3 .right #dugme {
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ff4750;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#reg6 .sirina .strane3 .right #dugme:hover {
+  background-color: lightgoldenrodyellow;
+  color: #ff4750;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 12px;
+  background-color: #666;
+}
+
+footer .sirina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5px;
+}
+
+footer .sirina section {
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+footer .sirina div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+footer .sirina div ul li {
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+footer .sirina div ul li a {
+  text-decoration: none;
+  color: #ff4750;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
