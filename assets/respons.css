@@ -1,0 +1,241 @@
+@media screen and (max-width: 2300px) {
+  header {
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  header {
+    position: static;
+  }
+  header .sirina {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header .sirina section {
+    width: 100%;
+  }
+  header .sirina ul li:first-of-type {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #reg5 .sirina .rad h2 {
+    font-size: 30px;
+  }
+  #reg5 .sirina .rad p:nth-of-type(2) {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  body #reg1 .sirina {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body #reg1 .sirina .prva {
+    width: 90%;
+    margin-bottom: 50px;
+    margin: 0px auto;
+  }
+  body #reg2 .sirina {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body #reg2 .sirina #leva {
+    width: 100%;
+  }
+  body #reg2 .sirina #desna {
+    margin: 50px auto;
+    width: 500px;
+  }
+  body #reg3 .sirina {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body #reg3 .sirina .box {
+    width: 48%;
+  }
+  body #reg3 .sirina .box:last-of-type {
+    margin: 30px auto;
+  }
+  body #reg4 .sirina .unutra {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body #reg4 .sirina .unutra .strana1.leva {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  body #reg4 .sirina .unutra .strana1.desna {
+    width: 100%;
+  }
+  #reg5 .sirina {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #reg5 .sirina .rad {
+    width: 45%;
+  }
+  footer .sirina {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .sirina section {
+    width: 100%;
+    text-align: center;
+  }
+  footer .sirina div {
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  header .sirina {
+    width: 95%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header .sirina section {
+    width: 100%;
+  }
+  header .sirina ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header .sirina ul li {
+    margin-left: 0px;
+  }
+  header .sirina ul li:first-of-type {
+    margin-left: 0px;
+  }
+  header .sirina ul li a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #reg1 .sirina .strana.prva h1 {
+    font-size: 40px;
+  }
+  #reg1 .sirina .strana.prva p {
+    font-size: 20px;
+  }
+  body #reg3 .sirina {
+    width: 95%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body #reg3 .sirina .box {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #reg5 .sirina {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #reg5 .sirina .rad {
+    width: 100%;
+  }
+  #reg5 .sirina .rad .drugi.rad {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #reg6 .sirina .strane3 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #reg6 .sirina .strane3 .left {
+    width: 100%;
+  }
+  #reg6 .sirina .strane3 .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  body #reg2 .sirina #leva {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body #reg2 .sirina #leva .opis {
+    width: 100%;
+  }
+  header .sirina section {
+    text-align: center;
+  }
+  header .sirina section h1 {
+    font-size: 25px;
+  }
+  header .sirina ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 50%;
+    margin: 0px auto;
+  }
+  header .sirina ul li {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 10px;
+  }
+  header .sirina ul li:first-of-type {
+    margin-left: 30px;
+  }
+  #reg1 .sirina #sadrzaj h1 {
+    font-size: 30px;
+  }
+  #reg1 .sirina #sadrzaj h2 {
+    font-size: 30px;
+  }
+  #reg1 .sirina #sadrzaj i {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  body #reg3 h1 {
+    font-size: 30px;
+  }
+  body #reg3 h2 {
+    font-size: 25px;
+  }
+  body #reg4 h1 {
+    font-size: 40px;
+  }
+  body #reg4 .sirina {
+    width: 95%;
+  }
+  body #reg4 .sirina .unutra .strana1.desna p {
+    width: 90%;
+  }
+  body #reg6 h1 {
+    font-size: 40px;
+  }
+  body #reg6 .sirina .strane3 .right {
+    margin-top: 50px;
+  }
+  body #reg6 .sirina .strane3 .right form .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body #reg6 .sirina .strane3 .right form .row #txt {
+    width: 100%;
+    height: 50px;
+  }
+  body #reg6 .sirina .strane3 .right form .row #txt2 {
+    width: 100%;
+    height: 50px;
+  }
+  body #reg6 .sirina .strane3 .right form .row #email {
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=respons.css.map */
